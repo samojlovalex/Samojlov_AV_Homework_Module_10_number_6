@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_10_number_6</string>
+    <string name="editTextHeight">Рост, м</string>
+    <string name="reset">Reset</string>
+    <string name="exit">Exit</string>
+    <string name="toast_reset">Данные очищены</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <string name="toast_exitBodyMassIndex">Возврат в основное окно</string>
+    <string name="toolbar_title">Индекс массы тела</string>
+    <string name="toolbar_subtitle">Mod. 10 № 6</string>
+    <string name="editTextWeight">Вес, кг</string>
+    <string name="calculateLaunch">Рассчитать</string>
+    <string name="textViewBodyMassIndex">Индекс массы тела</string>
+    <string name="textViewRecommendations">Рекомендации</string>
+</resources>
