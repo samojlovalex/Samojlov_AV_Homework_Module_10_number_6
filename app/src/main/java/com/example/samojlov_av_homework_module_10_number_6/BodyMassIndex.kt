@@ -3,7 +3,7 @@ package com.example.samojlov_av_homework_module_10_number_6
 import android.widget.ImageView
 
 class BodyMassIndex(val height: String, val weight: String) {
-    private val heigthIn = height.toDouble()
+    private val heigthIn = height.toDouble() / 100
     private val weightIn = weight.toDouble()
     private val severeBodyWeightDeficiency =
         "Чаще всего в основе лечения этого заболевания лежит правильное питание, которое предполагает:\n" +

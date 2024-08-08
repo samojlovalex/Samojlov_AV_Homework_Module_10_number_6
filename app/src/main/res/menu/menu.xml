@@ -13,7 +13,7 @@
 
     </item>
     <item
-        android:id="@+id/exitMenuMain"
+        android:id="@+id/exitMenuBodyMassIndex"
         android:checkable="false"
         android:icon="@drawable/menu_icon"
         android:orderInCategory="50"

@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
                 ).show()
             }
 
-            R.id.exitMenuMain -> {
+            R.id.exitMenuBodyMassIndex -> {
                 Toast.makeText(
                     applicationContext,
                     getString(R.string.toast_exit),

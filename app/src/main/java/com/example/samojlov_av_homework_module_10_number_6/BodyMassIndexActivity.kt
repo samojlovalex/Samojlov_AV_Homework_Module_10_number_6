@@ -58,20 +58,28 @@ class BodyMassIndexActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_bode_mass_index, menu)
+        menuInflater.inflate(R.menu.menu_body_mass_index, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
     @SuppressLint("SetTextI18n", "ShowToast")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.exitMenuMain -> {
+            R.id.backMenuBodyMassIndex -> {
+                Toast.makeText(
+                    applicationContext,
+                    getString(R.string.toast_backBodyMassIndex),
+                    Toast.LENGTH_LONG
+                ).show()
+                finish()
+            }
+            R.id.exitMenuBodyMassIndex -> {
                 Toast.makeText(
                     applicationContext,
                     getString(R.string.toast_exitBodyMassIndex),
                     Toast.LENGTH_LONG
                 ).show()
-                finish()
+                finishAffinity()
             }
         }
         return super.onOptionsItemSelected(item)
